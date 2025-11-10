@@ -1,0 +1,160 @@
+/* ===== Auth Pages Common CSS ===== */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 20px;
+}
+
+.auth-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+  padding: 35px;
+  transition: 0.3s;
+}
+
+.auth-card:hover {
+  transform: translateY(-3px);
+}
+
+.auth-card h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.auth-card p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+}
+
+.auth-btn {
+  width: 100%;
+  background: #667eea;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.auth-btn:hover {
+  background: #5b6dd8;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+.auth-link a {
+  color: #141416;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Specific Styles ===== */
+
+/* Register Page Specific */
+.register-container {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.register-btn {
+  background: #6e8efb;
+}
+
+.register-btn:hover {
+  background: #5b77d0;
+}
+
+/* Login Page Specific */
+.login-container {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.login-btn {
+  background: #667eea;
+}
+
+.login-btn:hover {
+  background: #5b6dd8;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 25px;
+  }
+  
+  .auth-card h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* forget button css */
+
+.forget-btn {
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(108, 99, 255, 0.3);
+}
+
+.forget-btn:hover {
+  background-color: #5548d6;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(85, 72, 214, 0.4);
+}
+
+.forget-btn:active {
+  transform: scale(0.98);
+  background-color: #473cc7;
+}
