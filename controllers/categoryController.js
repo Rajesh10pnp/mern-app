@@ -74,11 +74,11 @@ export const updateCategoryController = async (req, res) => {
 
 export const getCategoryController = async (req, res) => {
   try {
-    const category = await categoryModel.find({});
+    const categories  = await categoryModel.find({});
     res.status(200).send({
       success: true,
       message: " All gategory List",
-      category,
+      categories,
     });
   } catch (error) {
     console.log(error);

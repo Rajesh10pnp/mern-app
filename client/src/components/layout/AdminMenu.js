@@ -24,7 +24,7 @@ const AdminMenu = () => {
             to="/dashboard/admin/users"
             className="list-group-item list-group-item-action"
           >
-            User
+            Admin 
           </NavLink>
         </div>
       </div>
